@@ -64,6 +64,5 @@ c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeTo
 c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\bin\Microsoft.Owin.Security.Google.xml
 c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\obj\Debug\OdeToFood.csprojResolveAssemblyReference.cache
 c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\obj\Debug\OdeToFood.dll
 c:\users\helen gerasymenko\documents\visual studio 2015\Projects\OdeToFood\OdeToFood\obj\Debug\OdeToFood.pdb

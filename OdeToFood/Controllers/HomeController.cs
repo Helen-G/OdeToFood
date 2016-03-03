@@ -9,9 +9,13 @@ namespace OdeToFood.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = string.Format("{0} :: {1} {2}",
+                RouteData.Values["controller"],
+                RouteData.Values["action"],
+                RouteData.Values["id"]);
+
             var model = new RestaurantReview()
             {
                 Name = "Tersiguel",
@@ -24,12 +28,24 @@ namespace OdeToFood.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            ViewBag.Message = string.Format("{0} :: {1} {2}",
+                RouteData.Values["controller"],
+                RouteData.Values["action"],
+                RouteData.Values["id"]);
+
             return View();
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Cuisine()
+        {
+            ViewBag.Message = "Your cuisine page.";
 
             return View();
         }
